@@ -1,7 +1,7 @@
 {
   "date": "2026-11-06",
   "mode": "built-in image_gen",
-  "referenceImage": "assets/illustration-styles/sculpted.png",
+  "referenceImage": "assets/illustration-styles/sculpted.png.webp",
   "attempts": [
     {
       "key": "labrador-retriever--black--short-double",

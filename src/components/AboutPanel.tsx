@@ -16,7 +16,7 @@ export default function AboutPanel() {
     {[
       { icon: 'book-outline' as const, title: '资料', text: '参考 FCI、CKU、AKC、UKC 及地方犬研究，详情页可查看来源。' },
       { icon: 'heart-outline' as const, title: '本地记录', text: '无需注册。收藏、对比和选犬偏好保存在本设备。' },
-      { icon: 'shield-checkmark-outline' as const, title: '照片隐私', text: '照片在设备内识别，首次需联网。结果仅供外观参考。' },
+      { icon: 'shield-checkmark-outline' as const, title: '照片隐私', text: '模型随 App 提供，照片在设备内识别，无需外网。结果仅供外观参考。' },
       { icon: 'chatbubble-outline' as const, title: '内容反馈', text: '主动提交的纠错说明、参考链接及犬种外观信息用于核对资料。删除本机记录仅移除设备副本。' },
     ].map(item => <View key={item.title} style={{ flexDirection: 'row', alignItems: 'flex-start', gap: 12, paddingVertical: 18, borderTopWidth: 1, borderTopColor: c.border }}><View style={{ width: 35, height: 35, borderRadius: 12, backgroundColor: c.pale, alignItems: 'center', justifyContent: 'center' }}><Icon name={item.icon} size={18} color={c.green} /></View><View style={{ flex: 1 }}><Text style={{ color: c.text, fontSize: 15, fontWeight: '600', marginBottom: 5 }}>{item.title}</Text><Text style={{ color: c.muted, fontSize: 13, lineHeight: 23 }}>{item.text}</Text></View></View>)}
     <Button title="FCI 犬种目录" secondary onPress={() => { void Linking.openURL('https://www.fci.be/en/nomenclature/').catch(() => {}); }} style={{ marginTop: 7 }} />

@@ -15,7 +15,7 @@
 
 ## 启动
 
-使用 Node 24。双击“启动预览.cmd”，会检查已有服务，必要时在后台启动，等页面就绪后再打开浏览器。预览：http://127.0.0.1:4178/?v=0.8。查看已导出的预览不需要安装开发依赖。
+使用 Node 24。双击“启动预览.cmd”，会检查已有服务，必要时在后台启动，等页面就绪后再打开浏览器。预览：http://127.0.0.1:4178/?v=0.8。首次使用先运行 `npm ci` 与 `npm run export:web`；生成预览后只需 Node 即可启动。
 
 这是本机预览；电脑重启或服务停止后，再次双击启动入口即可恢复。启动错误保存在 .canisxuan-runtime/。开发前运行 npm ci，也可以通过 npm run serve 在终端启动服务。
 
@@ -41,3 +41,7 @@ npm test
 npm run export:web
 
 本版记录：design/verification-v8.json。原插画清单：design/generated-art-v6.json。运行包仅含优化图片，PNG 原稿保留于工作区。
+
+## 仓库中的图片
+
+已包含压缩后的完整配图和离线识别模型。图片不缩小，绘图原稿保留在本地；路径与原稿校验见 ASSET-MANIFEST.json。导出后的 dist/ 不纳入源码仓库，请先运行 npm run export:web。

@@ -5,17 +5,17 @@
     {
       "id": "A",
       "name": "博物写实",
-      "image": "assets/illustration-styles/natural-history.png"
+      "image": "assets/illustration-styles/natural-history.png.webp"
     },
     {
       "id": "B",
       "name": "现代平面",
-      "image": "assets/illustration-styles/graphic.png"
+      "image": "assets/illustration-styles/graphic.png.webp"
     },
     {
       "id": "C",
       "name": "柔和立体",
-      "image": "assets/illustration-styles/sculpted.png"
+      "image": "assets/illustration-styles/sculpted.png.webp"
     }
   ],
   "illustratedBreeds": [
@@ -402,7 +402,7 @@
   "userRequest": "所有狗狗的图你自己绘制；app 更名叫CanisXuan；以比熊和边牧给不同风格版本选择；先精简UI再美工。",
   "approvedStyle": "C",
   "approvalQuote": "我选择这个版本",
-  "referenceImage": "assets/illustration-styles/sculpted.png",
+  "referenceImage": "assets/illustration-styles/sculpted.png.webp",
   "date": "2026-11-06",
   "fullArtBatchStatus": "complete-current-selectable-appearances",
   "generation": {

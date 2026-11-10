@@ -1,0 +1,9 @@
+{
+  "runtime": "TensorFlow.js 4.22.0",
+  "model": "MobileNet v1 1.0 224",
+  "modelSource": "https://storage.googleapis.com/tfjs-models/tfjs/mobilenet_v1_1.0_224/model.json",
+  "weightBytes": 17015456,
+  "weightSha256": "7fe8ea38b71f7c295aef6b6fd62979708566096f0d7f522947666be4f12b4069",
+  "networkRequired": false,
+  "modelUnchanged": true
+}

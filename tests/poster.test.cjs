@@ -8,7 +8,7 @@ const cache = new Map();
 function load(file) {
   if (cache.has(file)) return cache.get(file);
   if (file.endsWith('.json')) return JSON.parse(fs.readFileSync(file, 'utf8'));
-  if (/\.(jpg|png|jpeg)$/.test(file)) { assert(fs.existsSync(file)); return file; }
+  if (/\.(jpg|png|jpeg|webp)$/.test(file)) { assert(fs.existsSync(file)); return file; }
   const module = { exports: {} }; cache.set(file, module.exports);
   const localRequire = name => { let target = path.resolve(path.dirname(file), name); if (!path.extname(target)) target += '.ts'; return load(target); };
   const code = ts.transpileModule(fs.readFileSync(file, 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022 } }).outputText;
@@ -37,4 +37,11 @@ test('unknown appearance is rejected and reference-family profiles keep their ow
   assert.equal(createPoster(bichon, 'fake-colour'), null); assert.equal(createPoster(bichon, undefined, 'fake-form'), null);
   const poodle = createPoster(breeds.find(item => item.id === 'poodle-standard'), 'apricot', 'toy'); assert(poodle.attributes.startsWith('小型')); assert(poodle.variant.includes('玩具型'));
   const spitz = createPoster(breeds.find(item => item.id === 'pomeranian'), undefined, 'wolfspitz'); assert.equal(spitz.color, undefined); assert(!spitz.variant.includes('橙色')); assert(spitz.asset.includes('wolfspitz'));
+});
+
+// External links and persisted IDs must never resolve Object.prototype entries.
+test('unknown route IDs and stored IDs cannot resolve inherited object properties', () => {
+  const { byId } = load(path.join(app, 'src/data/catalog.ts'));
+  for (const id of ['toString', 'constructor', '__proto__', 'hasOwnProperty', 'not-a-breed']) assert.equal(byId[id], undefined, id);
+  for (const breed of breeds) assert.equal(byId[breed.id].id, breed.id);
 });

@@ -18,7 +18,7 @@ export const breedGroups = ['全部', ...Array.from({ length: 10 }, (_, i) => St
 export const groupNames: Record<string, string> = { '1': '牧羊与牧牛', '2': '宾莎、雪纳瑞与獒犬', '3': '梗犬', '4': '腊肠犬', '5': '尖嘴与原始型', '6': '嗅觉猎犬', '7': '指示猎犬', '8': '寻回、搜寻与水猎犬', '9': '伴侣与玩具犬', '10': '视觉猎犬', '暂准': '暂准认可', '地方与其他': '地方犬与其他体系' };
 export function catalogLabel(breed: Breed) { return breed.fciId ? 'FCI ' + breed.fciId : breed.catalogKind === 'regional-type' ? '地方类型' : '其他体系'; }
 export function sizeLabel(size: string) { return size === '多种' ? '多体型' : size ? size + '犬' : '—'; }
-export const byId = Object.fromEntries(breeds.map(b => [b.id, b])) as Record<string, Breed>;
+export const byId = Object.assign(Object.create(null), Object.fromEntries(breeds.map(b => [b.id, b]))) as Record<string, Breed>;
 export const sizes = ['全部', '小型', '中型', '大型'];
 export type Filters = { query: string; size: string; coat: string; energy: string; group: string; profile: string };
 export const emptyFilters: Filters = { query: '', size: '全部', coat: '全部', energy: '全部', group: '全部', profile: '全部' };

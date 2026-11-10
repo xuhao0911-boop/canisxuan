@@ -28,7 +28,7 @@ export default function Recognize() {
       if (camera && Platform.OS !== 'web') { const permission = await ImagePicker.requestCameraPermissionsAsync(); if (!permission.granted) { setError('请允许相机权限，或选择相册。'); return; } }
       const options: ImagePicker.ImagePickerOptions = { mediaTypes: ['images'], base64: true, quality: 0.7, allowsEditing: true, aspect: [1, 1] };
       const result = camera ? await ImagePicker.launchCameraAsync(options) : await ImagePicker.launchImageLibraryAsync(options);
-      if (!result.canceled && result.assets[0]) { const asset = result.assets[0]; setPhoto(asset.base64 ? 'data:image/jpeg;base64,' + asset.base64 : await asDataUri(asset.uri)); }
+      if (!result.canceled && result.assets[0]) { const asset = result.assets[0]; setPhoto(asset.base64 ? 'data:' + (asset.mimeType || 'image/jpeg') + ';base64,' + asset.base64 : await asDataUri(asset.uri)); }
     } catch { setError('无法读取照片，请重选。'); }
     finally { setPicking(false); }
   };
