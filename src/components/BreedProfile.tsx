@@ -18,7 +18,7 @@ export default function BreedProfile({ id }: { id: string }) {
   const { favorites, compare, toggleFavorite, toggleCompare, visit, hydrated, notify } = useAtlas();
   useEffect(() => { if (breed && hydrated) visit(breed.id); }, [breed, hydrated, visit]);
   const open = async (url: string) => { try { await Linking.openURL(url); } catch { notify('链接暂时无法打开'); } };
-  if (!breed) return <Screen><Empty title="未收录" description="返回图鉴继续浏览。" action={<Button title="返回图鉴" onPress={() => router.replace('/')} />} /></Screen>;
+  if (!breed) return <Screen><Empty title="未收录" description="" action={<Button title="返回图鉴" onPress={() => router.replace('/')} />} /></Screen>;
   const favorite = favorites.includes(id), comparing = compare.includes(id);
   const spitzFamilyVariant = breed.id === 'pomeranian' && form !== 'pomeranian';
   const scoreProfileApplies = !spitzFamilyVariant && !(breed.id === 'poodle-standard' && form !== 'standard');
@@ -68,13 +68,13 @@ export default function BreedProfile({ id }: { id: string }) {
             <Text numberOfLines={2} style={{ fontSize: 12, lineHeight: 18, textAlign: 'center', color: selected ? c.text : c.muted, fontWeight: selected ? '600' : '400', marginTop: 7 }}>{item.name}</Text>
           </Pressable>;
         })}
-      </ScrollView> : <View style={d.colorNotice}><Icon name="color-palette-outline" size={20} color={c.green} /><Text style={{ flex: 1, fontSize: 13, lineHeight: 21, color: c.muted }}>代表外观，完整毛色尚未收录。</Text></View>}
+      </ScrollView> : <View style={d.colorNotice}><Icon name="color-palette-outline" size={20} color={c.green} /><Text style={{ flex: 1, fontSize: 13, lineHeight: 21, color: c.muted }}>毛色待补充</Text></View>}
 
       {breed.forms.length > 1 && <><Section title={breed.forms[0].kind} /><View style={{ flexDirection: 'row', gap: 8, flexWrap: 'wrap' }}>{breed.forms.map(item => <Chip key={item.id} label={item.name} selected={form === item.id} onPress={() => setForm(item.id)} />)}</View></>}
 
       <View style={{ marginTop: 25 }}><SegmentControl value={section} items={['概览', '照护']} onChange={setSection} /></View>
       {section === '概览' ? <View accessibilityLabel="犬种概览">
-        <Text style={[d.body, { marginTop: 20, marginBottom: 20 }]}>{profile.description}</Text>
+        <Fold title="简介"><Text style={d.body}>{profile.description}</Text></Fold>
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 10, marginBottom: 15 }}>{facts.map(item => <View key={item.label} style={[d.fact, item.value.length > 25 && { width: '100%' }]}><View style={d.factIcon}><Icon name={item.icon} size={18} color={c.green} /></View><View style={{ flex: 1 }}><Text style={{ fontSize: 12, color: c.muted, marginBottom: 4 }}>{item.label}</Text><Text style={{ fontSize: 14, lineHeight: 21, color: c.text, fontWeight: '500' }}>{item.value}</Text></View></View>)}</View>
         {!!profile.appearance && <Fold title="外形"><Text style={d.body}>{profile.appearance}</Text></Fold>}
         {!!profile.temperament && <Fold title="性格"><Text style={d.body}>{profile.temperament}</Text></Fold>}
