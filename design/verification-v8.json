@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-07",
+  "version": "0.8.0",
+  "status": "verified-feature-iteration",
+  "features": {
+    "matching": {
+      "questions": 5,
+      "referenceProfiles": 30,
+      "source": "Existing AKC source-linked scales",
+      "noPercentageClaims": true,
+      "noResultCase": true,
+      "savesOnDevice": true
+    },
+    "sharing": {
+      "currentColourAndFormPreserved": true,
+      "browserPng": {
+        "width": 1080,
+        "height": 1440,
+        "downloadsVerified": 2
+      },
+      "native": "captureRef plus Expo Sharing; exports verified, real-device sharing not exercised"
+    },
+    "feedback": {
+      "receiptRequiredForSubmitted": true,
+      "durableServerStorage": true,
+      "pendingOnFailure": true,
+      "retry": true,
+      "idempotent": true,
+      "operatorTools": "tools/feedback.mjs",
+      "publicRecordListing": false,
+      "service": "Local loopback preview service; no public deployment"
+    }
+  },
+  "checks": {
+    "typecheck": "passed",
+    "lint": "passed",
+    "unitAndServiceTests": 14,
+    "preferenceCombinations": 216,
+    "posterAppearancesChecked": 679,
+    "posterDefaultsChecked": 378,
+    "webExport": "passed",
+    "androidHermesExport": "passed",
+    "iosHermesExport": "passed",
+    "bundles": {
+      "web": "entry-38435cf6c5456d282a848be03f107628.js",
+      "android": "entry-70e80aa03bd6c9ff41f27dd7899e2da3.hbc",
+      "ios": "entry-94c0de156f6f141a7186b1ed8c828c7b.hbc"
+    }
+  },
+  "browser": {
+    "features": {
+      "version": "0.8.0",
+      "count": 38,
+      "passed": [
+        "Four existing navigation tabs retained",
+        "Home cards remain free of hearts",
+        "Home has no colour-count labels",
+        "Quiz requires a choice",
+        "Previous quiz choice retained",
+        "Quiz produces at most three actual candidates",
+        "Results explain recommendation reasons",
+        "No invented match percentage",
+        "Quiz results survive reload",
+        "Recommendation share card carries result context",
+        "No fabricated results when preferences have no match",
+        "Share image follows selected colour and form",
+        "Actual PNG download completes",
+        "Copied introduction includes current appearance",
+        "C-sheet artwork can also export a cropped PNG",
+        "Invalid appearance cannot export incorrect art",
+        "Empty correction cannot submit",
+        "Invalid reference URL cannot submit",
+        "Correction receives a real service acknowledgement",
+        "Submitted feedback survives reload",
+        "Offline correction is not shown as submitted",
+        "Pending correction retries successfully",
+        "No overflow: 360px /match",
+        "No overflow: 360px /share/bichon-frise",
+        "No overflow: 360px /feedback",
+        "No overflow: 390px /match",
+        "No overflow: 390px /share/bichon-frise",
+        "No overflow: 390px /feedback",
+        "No overflow: 430px /match",
+        "No overflow: 430px /share/bichon-frise",
+        "No overflow: 430px /feedback",
+        "No overflow: 480px /match",
+        "No overflow: 480px /share/bichon-frise",
+        "No overflow: 480px /feedback",
+        "No overflow: 1200px /match",
+        "No overflow: 1200px /share/bichon-frise",
+        "No overflow: 1200px /feedback",
+        "No browser page errors"
+      ]
+    },
+    "cardRegression": {
+      "version": "0.8",
+      "count": 15,
+      "passed": [
+        "Home cards have no favorite buttons",
+        "Home cards have no colour counts",
+        "Card contains only breed name and size",
+        "Centered 比熊犬",
+        "Centered 小型",
+        "Colour choices remain in detail",
+        "Favorite can be added from detail",
+        "Detail favorite persists and appears in collection",
+        "Collection cards use the same clean layout",
+        "Favorite can be removed from detail",
+        "No overflow at 360px",
+        "No overflow at 390px",
+        "No overflow at 430px",
+        "No overflow at 480px",
+        "No browser page errors"
+      ]
+    },
+    "capture": {
+      "screens": 3,
+      "viewport": "390x844",
+      "productionServiceHealthy": true
+    }
+  },
+  "data": {
+    "entries": 378,
+    "newDogIllustrationsThisUpdate": 0,
+    "colorDataCoverage": {
+      "withRecords": 32,
+      "withoutRecords": 346,
+      "multipleChoices": 30,
+      "singleRecord": 2
+    },
+    "colorCatalogComplete": false,
+    "existingCatalogueAndArtMappingsUnchanged": true
+  },
+  "limits": [
+    "Still an Expo App/Web project, not a published WeChat Mini Program.",
+    "No signed native APK or IPA; native system share sheet not tested on a real device.",
+    "Feedback receiving and operator tools run locally; production requires a domain, HTTPS, persistent storage and deployment.",
+    "Only 32 breed/type entries have colour records; 346 remain uncollected."
+  ]
+}

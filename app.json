@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "CanisXuan",
+    "slug": "canisxuan",
+    "scheme": "canisxuan",
+    "version": "0.8.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.canisxuan.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#245D44",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.canisxuan.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "选择狗狗照片进行本地外观识别",
+          "cameraPermission": "拍摄狗狗照片进行本地外观识别",
+          "microphonePermission": false
+        }
+      ],
+      "expo-font",
+      "expo-splash-screen",
+      "expo-asset",
+      "expo-sharing"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-07",
+  "version": "0.7.1",
+  "status": "verified-card-refinement",
+  "changes": [
+    "Removed favorite controls from illustration cards; detail retains add/remove",
+    "Removed colour swatches and counts from cards; detail retains palette",
+    "Centered breed name and size below each illustration",
+    "Updated empty-collection instruction"
+  ],
+  "checks": {
+    "typecheck": "passed",
+    "lint": "passed",
+    "webExport": "passed",
+    "webBundle": "entry-bc8843ebecbbabd77f0779f1c7cae2c3.js",
+    "browser": {
+      "version": "0.7.1",
+      "count": 15,
+      "passed": [
+        "Home cards have no favorite buttons",
+        "Home cards have no colour counts",
+        "Card contains only breed name and size",
+        "Centered 比熊犬",
+        "Centered 小型",
+        "Colour choices remain in detail",
+        "Favorite can be added from detail",
+        "Detail favorite persists and appears in collection",
+        "Collection cards use the same clean layout",
+        "Favorite can be removed from detail",
+        "No overflow at 360px",
+        "No overflow at 390px",
+        "No overflow at 430px",
+        "No overflow at 480px",
+        "No browser page errors"
+      ]
+    }
+  },
+  "screenshot": "preview-v7.1/home.png",
+  "data": {
+    "entries": 378,
+    "colorDataCoverage": {
+      "withRecords": 32,
+      "withoutRecords": 346,
+      "multipleChoices": 30,
+      "singleRecord": 2
+    },
+    "colorCatalogComplete": false
+  },
+  "priorVerification": "verification-v7.json",
+  "scope": "Card layout and collection instructions only; breed data, image mappings, palette controls and local storage format are unchanged. Native export and all-appearance checks were not repeated for this card-only patch."
+}

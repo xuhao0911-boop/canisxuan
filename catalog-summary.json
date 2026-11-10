@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-07",
+  "version": "0.8.0",
+  "entries": 378,
+  "fciStandards": 364,
+  "regionalAndOtherEntries": 14,
+  "introducedProfiles": 378,
+  "profilesWithCare": 378,
+  "completeWrittenProfiles": 378,
+  "quantifiedProfiles": 30,
+  "colors": 220,
+  "forms": 33,
+  "illustratedBreeds": 378,
+  "illustratedExamples": 678,
+  "newImagesThisUpdate": 0,
+  "pendingBreedIllustrations": 0,
+  "selectableAppearances": 679,
+  "completedAppearances": 679,
+  "pendingAppearances": 0,
+  "style": "C 柔和立体",
+  "currentAtlasComplete": false,
+  "availableAppearanceArtComplete": true,
+  "colorCatalogComplete": false,
+  "uiRevision": "atlas-with-matching-sharing-feedback",
+  "colorDataCoverage": {
+    "withRecords": 32,
+    "withoutRecords": 346,
+    "multipleChoices": 30,
+    "singleRecord": 2
+  },
+  "scopeNote": "All existing 679 selectable appearances have art. Most breed colour records remain uncollected; this UI revision does not complete that catalogue.",
+  "artworkRevision": "0.6.0"
+}

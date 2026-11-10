@@ -1,0 +1,13 @@
+CanisXuan 0.8.0 无图片源码副本
+
+来源：C:\Users\Administrator\Documents\Codex\2026-11-06\new-chat\outputs\DogAtlas
+项目名称已通过 package.json（name: canisxuan, version: 0.8.0）与 app.json 核对。
+提取日期：2026-11-09（Asia/Shanghai）。原项目未修改。
+
+包含：src/ 全部页面、组件、状态、识别逻辑、犬种数据；server/、tools/、tests/；design/ 文字与 JSON 资料；项目配置、依赖锁文件、原 README 与版权声明。
+排除：所有图片文件、node_modules、dist、Git/Expo 缓存、临时工作目录、运行日志及用户反馈数据。
+这是源码资料包。app.json 和 src/data/ 中原有图片引用保持原样，缺图情况下不能直接完整构建。恢复图片时按 omitted-images.json 中的相对路径放回；也可自行将图片引用替换为占位图。
+本包未包含已导出的网页，因此原“启动预览.cmd”不能直接用于预览；应在补齐图片后按原 README 安装依赖并重新导出。
+
+源项目提取时检查：npm run typecheck、npm run lint 均通过。
+source-manifest.json 提供每个复制文件的 SHA-256；已逐文件核对与源文件一致，并校验 ZIP 完整性。

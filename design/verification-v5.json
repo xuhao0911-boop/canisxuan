@@ -1,0 +1,32 @@
+{
+  "version": "0.5.0",
+  "date": "2026-11-07",
+  "typecheck": true,
+  "lint": true,
+  "webExport": true,
+  "nativeCodeExports": [
+    "android",
+    "ios"
+  ],
+  "browser": {
+    "coreChecks": 19,
+    "variantScopeChecks": 8,
+    "loadedDefaultImages": 378,
+    "peakRenderedCards": 46,
+    "viewportWidths": [
+      360,
+      390
+    ]
+  },
+  "art": {
+    "illustratedEntries": 378,
+    "examples": 384,
+    "newImages": 346,
+    "pendingDefaultImages": 0,
+    "remainingVariantJobs": 201,
+    "duplicateImageFilesAcrossBreeds": 0,
+    "verifiedPrimaryStandards": 364
+  },
+  "signedMobileBuild": false,
+  "realDeviceCameraTest": false
+}

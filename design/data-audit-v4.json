@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-06",
+  "entries": 378,
+  "fciStandards": 364,
+  "localAndOtherEntries": 14,
+  "readableProfiles": 93,
+  "detailedProfiles": 30,
+  "newStandardProfiles": 49,
+  "colors": 220,
+  "forms": 33,
+  "notes": [
+    "Regional umbrella entries are not counted as additional FCI breeds.",
+    "Original 364 FCI IDs and 30 detailed profile IDs retained.",
+    "No new 1–5 temperament or care scores were inferred."
+  ]
+}

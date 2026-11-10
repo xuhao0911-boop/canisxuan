@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-07",
+  "version": "0.7.0",
+  "status": "verified-ui-revision",
+  "scope": "Interface refinement of the existing atlas. The full breed-colour catalogue remains incomplete.",
+  "data": {
+    "colorDataCoverage": {
+      "withRecords": 32,
+      "withoutRecords": 346,
+      "multipleChoices": 30,
+      "singleRecord": 2
+    },
+    "allBreedColorsComplete": false,
+    "date": "2026-11-07",
+    "version": "0.7.0",
+    "passed": true,
+    "entries": 378,
+    "fciStandards": 364,
+    "regionalOrOther": 14,
+    "fullWrittenProfiles": 378,
+    "beginnerGuidance": 378,
+    "formProfiles": 33,
+    "selectableAppearances": 679,
+    "pending": 0,
+    "illustratedExamples": 678,
+    "activeStandaloneImages": 672,
+    "uniqueOriginalHashes": 672,
+    "quantifiedProfiles": 30,
+    "sizeFilterCounts": {
+      "小型": 71,
+      "中型": 198,
+      "大型": 123
+    },
+    "coatFilterCounts": {
+      "短毛": 185,
+      "中长毛": 68,
+      "长毛": 74,
+      "卷毛": 20,
+      "硬毛": 65,
+      "无毛": 3,
+      "多种": 32
+    },
+    "scope": "Every currently selectable UI combination. This does not claim all conceivable dog genotypes or every variation named in a standard is selectable.",
+    "newDogIllustrationsThisRevision": 0,
+    "artworkManifest": "design/generated-art-v6.json"
+  },
+  "changes": [
+    "Concise Chinese labels and fewer repeated subtitles",
+    "Paw brand, illustrated discovery panel and graphical size filters",
+    "Real colour dots and accessible selected states",
+    "Overview/care navigation, collapsible detail text",
+    "Illustrated collection states, scan frame and compact comparison",
+    "Explicit notice for unrecorded coat colours"
+  ],
+  "checks": {
+    "typecheck": "passed",
+    "lint": "passed",
+    "webExport": "passed",
+    "androidHermesExport": "passed",
+    "iosHermesExport": "passed",
+    "webBundle": "entry-febb3532a66c9289c02bf14298881cac.js",
+    "androidBundle": "entry-d3921f401d99cd1b94aaca3c4d2ef9d0.hbc",
+    "iosBundle": "entry-309c0d39b4475c1206926931bf5c0e4a.hbc"
+  },
+  "browser": {
+    "core": {
+      "count": 44,
+      "passed": [
+        "Four working navigation tabs",
+        "Illustrated discovery panel",
+        "English subtitle removed from grid",
+        "Catalog remains virtualized",
+        "Graphical size filter",
+        "Combined breed/colour search",
+        "Discovery panel yields to search",
+        "Search reset and empty state",
+        "Filter sheet and local classification",
+        "Unrecorded colour notice without fake choices",
+        "Long profile content starts collapsed",
+        "Profile fold expands",
+        "Unscored breed keeps qualitative guidance",
+        "Toy Poodle uses its own size and art",
+        "Variant care follows selected type",
+        "Wolfspitz does not reuse Pomeranian palette",
+        "Source sheet preserves regional distinction",
+        "Favorites persist and use new card layout",
+        "Comparison limit remains three",
+        "Compare picker remains virtualized",
+        "Graphical ratings preserve recorded values",
+        "Recognition uses scan graphics and concise privacy copy",
+        "No overflow: 360px /?v=0.7",
+        "No overflow: 360px /breed/fci-1",
+        "No overflow: 360px /recognize",
+        "No overflow: 360px /compare",
+        "No overflow: 390px /?v=0.7",
+        "No overflow: 390px /breed/fci-1",
+        "No overflow: 390px /recognize",
+        "No overflow: 390px /compare",
+        "No overflow: 430px /?v=0.7",
+        "No overflow: 430px /breed/fci-1",
+        "No overflow: 430px /recognize",
+        "No overflow: 430px /compare",
+        "No overflow: 480px /?v=0.7",
+        "No overflow: 480px /breed/fci-1",
+        "No overflow: 480px /recognize",
+        "No overflow: 480px /compare",
+        "No overflow: 1200px /?v=0.7",
+        "No overflow: 1200px /breed/fci-1",
+        "No overflow: 1200px /recognize",
+        "No overflow: 1200px /compare",
+        "About reports actual colour coverage",
+        "No browser page errors"
+      ]
+    },
+    "defaultImages": {
+      "catalogDefaultsWithLoadedImages": 378,
+      "peakRenderedCards": 50
+    },
+    "appearances": [
+      {
+        "shard": 1,
+        "checked": 170,
+        "profiles": 28,
+        "allImagesLoaded": true,
+        "matchingAssets": true,
+        "correctProfileAndCare": true,
+        "noPageErrors": true,
+        "noHorizontalOverflow": true
+      },
+      {
+        "shard": 2,
+        "checked": 170,
+        "profiles": 32,
+        "allImagesLoaded": true,
+        "matchingAssets": true,
+        "correctProfileAndCare": true,
+        "noPageErrors": true,
+        "noHorizontalOverflow": true
+      },
+      {
+        "shard": 3,
+        "checked": 170,
+        "profiles": 170,
+        "allImagesLoaded": true,
+        "matchingAssets": true,
+        "correctProfileAndCare": true,
+        "noPageErrors": true,
+        "noHorizontalOverflow": true
+      },
+      {
+        "shard": 4,
+        "checked": 169,
+        "profiles": 169,
+        "allImagesLoaded": true,
+        "matchingAssets": true,
+        "correctProfileAndCare": true,
+        "noPageErrors": true,
+        "noHorizontalOverflow": true
+      }
+    ],
+    "viewportWidths": [
+      360,
+      390,
+      430,
+      480,
+      1200
+    ],
+    "captures": {
+      "screens": 6,
+      "viewport": "390x844"
+    }
+  },
+  "textContrast": {
+    "ratios": {
+      "body": 4.54,
+      "railLabels": 6.63,
+      "segmentLabels": 6.45,
+      "placeholderAndInactiveNav": 4.91
+    },
+    "minimumForTestedSmallText": 4.5,
+    "result": "passed"
+  },
+  "screenshots": [
+    "preview-v7/home.png",
+    "preview-v7/detail.png",
+    "preview-v7/profile.png",
+    "preview-v7/recognize.png",
+    "preview-v7/favorites.png",
+    "preview-v7/compare-empty.png",
+    "preview-v7/compare.png"
+  ],
+  "limits": [
+    "Only 32 of 378 entries currently have coat-colour records; 346 remain uncollected.",
+    "Native checks are code/resource exports, not signed APK or IPA installers.",
+    "Real-device camera permissions and recognition accuracy were not exercised in this UI revision.",
+    "Browser functional tests used a dedicated test session without changing user preview records."
+  ]
+}

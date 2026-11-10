@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-07",
+  "version": "0.6.0",
+  "status": "complete-current-atlas",
+  "data": {
+    "date": "2026-11-07",
+    "version": "0.6.0",
+    "passed": true,
+    "entries": 378,
+    "fciStandards": 364,
+    "regionalOrOther": 14,
+    "fullWrittenProfiles": 378,
+    "beginnerGuidance": 378,
+    "formProfiles": 33,
+    "selectableAppearances": 679,
+    "pending": 0,
+    "newAppearanceImages": 294,
+    "redrawnExistingImages": 1,
+    "illustratedExamples": 678,
+    "activeStandaloneImages": 672,
+    "uniqueOriginalHashes": 672,
+    "quantifiedProfiles": 30,
+    "sizeFilterCounts": {
+      "小型": 71,
+      "中型": 198,
+      "大型": 123
+    },
+    "coatFilterCounts": {
+      "短毛": 185,
+      "中长毛": 68,
+      "长毛": 74,
+      "卷毛": 20,
+      "硬毛": 65,
+      "无毛": 3,
+      "多种": 32
+    },
+    "scope": "Every currently selectable UI combination. This does not claim all conceivable dog genotypes or every variation named in a standard is selectable."
+  },
+  "checks": {
+    "typecheck": "passed",
+    "lint": "passed",
+    "webExport": "passed",
+    "androidHermesExport": "passed",
+    "iosHermesExport": "passed",
+    "webBundle": "entry-5c9597dac9a924e37d49f3d9d1dfee63.js",
+    "androidBundle": "entry-7dc09662c1a9864a9793055c18ed865b.hbc",
+    "iosBundle": "entry-a54de44652704c708010f91912c73ea9.hbc"
+  },
+  "browser": {
+    "core": {
+      "count": 18,
+      "passed": [
+        "378 entries and four existing tabs",
+        "Bounded initial catalog",
+        "Redundant introduced-only control removed",
+        "14 regional/other entries remain separate",
+        "Combined search 边牧 蓝陨石",
+        "Combined search 比熊 短修毛",
+        "Combined search 中国冠毛犬 无毛型",
+        "New profiles complete without invented AKC scores",
+        "Wolfspitz uses own art/height and hides Pomeranian palette",
+        "Wolfspitz has care and qualitative guidance",
+        "Toy Poodle does not inherit Standard weight",
+        "Toy Poodle has own profile without Standard scores",
+        "Regional source not presented as FCI",
+        "Favorites survive reload",
+        "Unscored comparison shows written advice without empty rating table",
+        "Compare picker renders bounded rows",
+        "No horizontal overflow at 390",
+        "No horizontal overflow at 360"
+      ]
+    },
+    "defaultImages": {
+      "catalogDefaultsWithLoadedImages": 378,
+      "peakRenderedCards": 46
+    },
+    "appearances": [
+      {
+        "shard": 1,
+        "checked": 170,
+        "breeds": 19,
+        "allImagesLoaded": true,
+        "matchingAssets": true,
+        "completeWrittenSections": true,
+        "noPageErrors": true,
+        "noHorizontalOverflow": true
+      },
+      {
+        "shard": 2,
+        "checked": 170,
+        "breeds": 26,
+        "allImagesLoaded": true,
+        "matchingAssets": true,
+        "completeWrittenSections": true,
+        "noPageErrors": true,
+        "noHorizontalOverflow": true
+      },
+      {
+        "shard": 3,
+        "checked": 170,
+        "breeds": 167,
+        "allImagesLoaded": true,
+        "matchingAssets": true,
+        "completeWrittenSections": true,
+        "noPageErrors": true,
+        "noHorizontalOverflow": true
+      },
+      {
+        "shard": 4,
+        "checked": 169,
+        "breeds": 167,
+        "allImagesLoaded": true,
+        "matchingAssets": true,
+        "completeWrittenSections": true,
+        "noPageErrors": true,
+        "noHorizontalOverflow": true
+      }
+    ],
+    "totalAppearanceStates": 679
+  },
+  "art": {
+    "mode": "built-in image_gen",
+    "approvedStyle": "C 柔和立体",
+    "additionalAppearanceImages": 294,
+    "targetedRedraws": 7,
+    "existingBaseImagesRedrawn": 1,
+    "pending": 0,
+    "masterDirectories": [
+      "assets/generated/",
+      "assets/generated-v6/"
+    ],
+    "promptManifest": "design/generated-art-v6.json",
+    "originalsPreserved": true
+  },
+  "limits": [
+    "Native checks are code and resource exports, not signed APK/IPA installation.",
+    "Physical-device camera and permissions were not exercised.",
+    "Coverage means every current selectable colour/form option; standard varieties named only in text are not all separate selectable options."
+  ]
+}

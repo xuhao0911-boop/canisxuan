@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-06",
+  "breeds": 364,
+  "uniqueIds": 364,
+  "uniqueFciIds": 364,
+  "detailedProfiles": 30,
+  "colors": 216,
+  "forms": 23,
+  "fixes": [
+    "American Akita English name aligned with cached FCI 344 entry; stable ID and Akita search alias retained.",
+    "Samoyed origin translated from the existing FCI origin text.",
+    "AKC Pomeranian color scope made explicit in the German Spitz profile note."
+  ],
+  "newDetailedProfilesAdded": 0,
+  "note": "No unverified standard summaries or temperament scores were added. Standard references still require detailed appearance review before drawing.",
+  "artQueue": {
+    "totalJobs": 564,
+    "breedJobs": 364,
+    "variantJobs": 200,
+    "completedJobs": 7,
+    "failedJobs": 4,
+    "queuedJobs": 553,
+    "needsReference": 553
+  }
+}

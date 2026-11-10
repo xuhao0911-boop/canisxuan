@@ -1,0 +1,1514 @@
+{
+  "bichon-frise": {
+    "color": "white",
+    "form": "rounded"
+  },
+  "border-collie": {
+    "color": "black-white",
+    "form": "rough"
+  },
+  "labrador-retriever": {
+    "color": "black",
+    "form": "short-double"
+  },
+  "golden-retriever": {
+    "color": "dark-golden",
+    "form": ""
+  },
+  "shiba-inu": {
+    "color": "black-tan",
+    "form": ""
+  },
+  "pomeranian": {
+    "color": "orange",
+    "form": "pomeranian"
+  },
+  "pembroke-welsh-corgi": {
+    "color": "black-tan",
+    "form": ""
+  },
+  "samoyed": {
+    "color": "white",
+    "form": ""
+  },
+  "bernese-mountain-dog": {
+    "color": "black-rust-white",
+    "form": ""
+  },
+  "maltese": {
+    "color": "white",
+    "form": ""
+  },
+  "papillon": {
+    "color": "white-black",
+    "form": "papillon"
+  },
+  "yorkshire-terrier": {
+    "color": "blue-gold",
+    "form": ""
+  },
+  "shetland-sheepdog": {
+    "color": "sable-white",
+    "form": ""
+  },
+  "french-bulldog": {
+    "color": "brindle",
+    "form": ""
+  },
+  "cavalier-king-charles-spaniel": {
+    "color": "blenheim",
+    "form": ""
+  },
+  "dachshund": {
+    "color": "black-tan",
+    "form": "smooth"
+  },
+  "bulldog": {
+    "color": "fawn",
+    "form": ""
+  },
+  "dalmatian": {
+    "color": "white-black",
+    "form": ""
+  },
+  "beagle": {
+    "color": "black-red-white",
+    "form": ""
+  },
+  "german-shepherd-dog": {
+    "color": "black",
+    "form": "stock"
+  },
+  "poodle-standard": {
+    "color": "black",
+    "form": "standard"
+  },
+  "miniature-schnauzer": {
+    "color": "black",
+    "form": ""
+  },
+  "pekingese": {
+    "color": "biscuit",
+    "form": ""
+  },
+  "shih-tzu": {
+    "color": "black",
+    "form": ""
+  },
+  "chihuahua": {
+    "color": "black",
+    "form": "smooth"
+  },
+  "alaskan-malamute": {
+    "color": "gray-white",
+    "form": ""
+  },
+  "pug": {
+    "color": "black",
+    "form": ""
+  },
+  "siberian-husky": {
+    "color": "white",
+    "form": ""
+  },
+  "australian-shepherd": {
+    "color": "black",
+    "form": ""
+  },
+  "akita": {
+    "color": "black",
+    "form": ""
+  },
+  "chinese-rural-dog": {
+    "color": "",
+    "form": ""
+  },
+  "xiasi-dog": {
+    "color": "white",
+    "form": "long-sword"
+  },
+  "kunming-dog": {
+    "color": "wolf-gray",
+    "form": ""
+  },
+  "laizhou-hong": {
+    "color": "",
+    "form": ""
+  },
+  "chongqing-dog": {
+    "color": "",
+    "form": ""
+  },
+  "shaanxi-xigou": {
+    "color": "",
+    "form": ""
+  },
+  "american-bulldog": {
+    "color": "",
+    "form": ""
+  },
+  "american-bully": {
+    "color": "",
+    "form": ""
+  },
+  "american-pit-bull-terrier": {
+    "color": "",
+    "form": ""
+  },
+  "patterdale-terrier": {
+    "color": "",
+    "form": ""
+  },
+  "carolina-dog": {
+    "color": "",
+    "form": ""
+  },
+  "treeing-walker-coonhound": {
+    "color": "",
+    "form": ""
+  },
+  "american-english-coonhound": {
+    "color": "",
+    "form": ""
+  },
+  "bluetick-coonhound": {
+    "color": "",
+    "form": ""
+  },
+  "fci-1": {
+    "color": "",
+    "form": ""
+  },
+  "fci-2": {
+    "color": "",
+    "form": ""
+  },
+  "fci-3": {
+    "color": "",
+    "form": ""
+  },
+  "fci-4": {
+    "color": "",
+    "form": ""
+  },
+  "fci-5": {
+    "color": "",
+    "form": ""
+  },
+  "fci-6": {
+    "color": "",
+    "form": ""
+  },
+  "fci-7": {
+    "color": "",
+    "form": ""
+  },
+  "fci-8": {
+    "color": "",
+    "form": ""
+  },
+  "fci-9": {
+    "color": "",
+    "form": ""
+  },
+  "fci-10": {
+    "color": "",
+    "form": ""
+  },
+  "fci-11": {
+    "color": "",
+    "form": ""
+  },
+  "fci-12": {
+    "color": "",
+    "form": ""
+  },
+  "fci-13": {
+    "color": "",
+    "form": ""
+  },
+  "fci-14": {
+    "color": "",
+    "form": ""
+  },
+  "fci-15": {
+    "color": "",
+    "form": "groenendael"
+  },
+  "fci-16": {
+    "color": "",
+    "form": ""
+  },
+  "fci-17": {
+    "color": "",
+    "form": ""
+  },
+  "fci-19": {
+    "color": "",
+    "form": ""
+  },
+  "fci-20": {
+    "color": "",
+    "form": ""
+  },
+  "fci-21": {
+    "color": "",
+    "form": ""
+  },
+  "fci-22": {
+    "color": "",
+    "form": ""
+  },
+  "fci-24": {
+    "color": "",
+    "form": ""
+  },
+  "fci-25": {
+    "color": "",
+    "form": ""
+  },
+  "fci-28": {
+    "color": "",
+    "form": ""
+  },
+  "fci-30": {
+    "color": "",
+    "form": ""
+  },
+  "fci-31": {
+    "color": "",
+    "form": ""
+  },
+  "fci-32": {
+    "color": "",
+    "form": ""
+  },
+  "fci-33": {
+    "color": "",
+    "form": ""
+  },
+  "fci-34": {
+    "color": "",
+    "form": ""
+  },
+  "fci-35": {
+    "color": "",
+    "form": ""
+  },
+  "fci-36": {
+    "color": "",
+    "form": ""
+  },
+  "fci-37": {
+    "color": "",
+    "form": ""
+  },
+  "fci-38": {
+    "color": "",
+    "form": ""
+  },
+  "fci-40": {
+    "color": "",
+    "form": ""
+  },
+  "fci-41": {
+    "color": "",
+    "form": ""
+  },
+  "fci-42": {
+    "color": "",
+    "form": ""
+  },
+  "fci-43": {
+    "color": "",
+    "form": ""
+  },
+  "fci-44": {
+    "color": "",
+    "form": ""
+  },
+  "fci-46": {
+    "color": "",
+    "form": ""
+  },
+  "fci-47": {
+    "color": "",
+    "form": ""
+  },
+  "fci-48": {
+    "color": "",
+    "form": ""
+  },
+  "fci-49": {
+    "color": "",
+    "form": ""
+  },
+  "fci-50": {
+    "color": "",
+    "form": ""
+  },
+  "fci-51": {
+    "color": "",
+    "form": ""
+  },
+  "fci-52": {
+    "color": "",
+    "form": ""
+  },
+  "fci-53": {
+    "color": "",
+    "form": ""
+  },
+  "fci-54": {
+    "color": "",
+    "form": ""
+  },
+  "fci-55": {
+    "color": "",
+    "form": ""
+  },
+  "fci-56": {
+    "color": "",
+    "form": ""
+  },
+  "fci-57": {
+    "color": "",
+    "form": ""
+  },
+  "fci-58": {
+    "color": "",
+    "form": ""
+  },
+  "fci-59": {
+    "color": "",
+    "form": ""
+  },
+  "fci-60": {
+    "color": "",
+    "form": ""
+  },
+  "fci-61": {
+    "color": "",
+    "form": ""
+  },
+  "fci-62": {
+    "color": "",
+    "form": ""
+  },
+  "fci-63": {
+    "color": "",
+    "form": ""
+  },
+  "fci-64": {
+    "color": "",
+    "form": ""
+  },
+  "fci-66": {
+    "color": "",
+    "form": ""
+  },
+  "fci-67": {
+    "color": "",
+    "form": ""
+  },
+  "fci-68": {
+    "color": "",
+    "form": ""
+  },
+  "fci-70": {
+    "color": "",
+    "form": ""
+  },
+  "fci-71": {
+    "color": "",
+    "form": ""
+  },
+  "fci-72": {
+    "color": "",
+    "form": ""
+  },
+  "fci-73": {
+    "color": "",
+    "form": ""
+  },
+  "fci-74": {
+    "color": "",
+    "form": ""
+  },
+  "fci-75": {
+    "color": "",
+    "form": ""
+  },
+  "fci-76": {
+    "color": "",
+    "form": ""
+  },
+  "fci-78": {
+    "color": "",
+    "form": ""
+  },
+  "fci-80": {
+    "color": "",
+    "form": ""
+  },
+  "fci-81": {
+    "color": "",
+    "form": ""
+  },
+  "fci-82": {
+    "color": "",
+    "form": ""
+  },
+  "fci-83": {
+    "color": "",
+    "form": ""
+  },
+  "fci-84": {
+    "color": "",
+    "form": ""
+  },
+  "fci-85": {
+    "color": "",
+    "form": ""
+  },
+  "fci-87": {
+    "color": "",
+    "form": ""
+  },
+  "fci-89": {
+    "color": "",
+    "form": ""
+  },
+  "fci-90": {
+    "color": "",
+    "form": ""
+  },
+  "fci-91": {
+    "color": "",
+    "form": ""
+  },
+  "fci-92": {
+    "color": "",
+    "form": ""
+  },
+  "fci-93": {
+    "color": "",
+    "form": ""
+  },
+  "fci-94": {
+    "color": "",
+    "form": ""
+  },
+  "fci-95": {
+    "color": "",
+    "form": ""
+  },
+  "fci-96": {
+    "color": "",
+    "form": ""
+  },
+  "fci-98": {
+    "color": "",
+    "form": ""
+  },
+  "fci-99": {
+    "color": "",
+    "form": ""
+  },
+  "fci-100": {
+    "color": "",
+    "form": ""
+  },
+  "fci-102": {
+    "color": "",
+    "form": ""
+  },
+  "fci-103": {
+    "color": "",
+    "form": ""
+  },
+  "fci-104": {
+    "color": "",
+    "form": ""
+  },
+  "fci-105": {
+    "color": "",
+    "form": ""
+  },
+  "fci-106": {
+    "color": "",
+    "form": ""
+  },
+  "fci-107": {
+    "color": "",
+    "form": ""
+  },
+  "fci-108": {
+    "color": "",
+    "form": ""
+  },
+  "fci-109": {
+    "color": "",
+    "form": ""
+  },
+  "fci-110": {
+    "color": "",
+    "form": ""
+  },
+  "fci-113": {
+    "color": "",
+    "form": ""
+  },
+  "fci-114": {
+    "color": "",
+    "form": ""
+  },
+  "fci-115": {
+    "color": "",
+    "form": ""
+  },
+  "fci-116": {
+    "color": "",
+    "form": ""
+  },
+  "fci-117": {
+    "color": "",
+    "form": ""
+  },
+  "fci-118": {
+    "color": "",
+    "form": ""
+  },
+  "fci-119": {
+    "color": "",
+    "form": ""
+  },
+  "fci-120": {
+    "color": "",
+    "form": ""
+  },
+  "fci-121": {
+    "color": "",
+    "form": ""
+  },
+  "fci-123": {
+    "color": "",
+    "form": ""
+  },
+  "fci-124": {
+    "color": "",
+    "form": ""
+  },
+  "fci-125": {
+    "color": "",
+    "form": ""
+  },
+  "fci-126": {
+    "color": "",
+    "form": ""
+  },
+  "fci-127": {
+    "color": "",
+    "form": ""
+  },
+  "fci-128": {
+    "color": "",
+    "form": ""
+  },
+  "fci-129": {
+    "color": "",
+    "form": ""
+  },
+  "fci-130": {
+    "color": "",
+    "form": ""
+  },
+  "fci-131": {
+    "color": "",
+    "form": ""
+  },
+  "fci-132": {
+    "color": "",
+    "form": ""
+  },
+  "fci-133": {
+    "color": "",
+    "form": ""
+  },
+  "fci-134": {
+    "color": "",
+    "form": ""
+  },
+  "fci-135": {
+    "color": "",
+    "form": ""
+  },
+  "fci-137": {
+    "color": "",
+    "form": ""
+  },
+  "fci-138": {
+    "color": "",
+    "form": ""
+  },
+  "fci-139": {
+    "color": "",
+    "form": ""
+  },
+  "fci-140": {
+    "color": "",
+    "form": ""
+  },
+  "fci-141": {
+    "color": "",
+    "form": ""
+  },
+  "fci-142": {
+    "color": "",
+    "form": ""
+  },
+  "fci-143": {
+    "color": "",
+    "form": ""
+  },
+  "fci-144": {
+    "color": "",
+    "form": ""
+  },
+  "fci-145": {
+    "color": "",
+    "form": ""
+  },
+  "fci-146": {
+    "color": "",
+    "form": ""
+  },
+  "fci-147": {
+    "color": "",
+    "form": ""
+  },
+  "fci-150": {
+    "color": "",
+    "form": ""
+  },
+  "fci-151": {
+    "color": "",
+    "form": ""
+  },
+  "fci-152": {
+    "color": "",
+    "form": ""
+  },
+  "fci-154": {
+    "color": "",
+    "form": ""
+  },
+  "fci-155": {
+    "color": "",
+    "form": ""
+  },
+  "fci-156": {
+    "color": "",
+    "form": ""
+  },
+  "fci-157": {
+    "color": "",
+    "form": ""
+  },
+  "fci-158": {
+    "color": "",
+    "form": ""
+  },
+  "fci-159": {
+    "color": "",
+    "form": ""
+  },
+  "fci-160": {
+    "color": "",
+    "form": ""
+  },
+  "fci-162": {
+    "color": "",
+    "form": ""
+  },
+  "fci-163": {
+    "color": "",
+    "form": ""
+  },
+  "fci-164": {
+    "color": "",
+    "form": ""
+  },
+  "fci-165": {
+    "color": "",
+    "form": ""
+  },
+  "fci-167": {
+    "color": "",
+    "form": ""
+  },
+  "fci-168": {
+    "color": "",
+    "form": ""
+  },
+  "fci-169": {
+    "color": "",
+    "form": ""
+  },
+  "fci-170": {
+    "color": "",
+    "form": ""
+  },
+  "fci-171": {
+    "color": "",
+    "form": ""
+  },
+  "fci-173": {
+    "color": "",
+    "form": ""
+  },
+  "fci-175": {
+    "color": "",
+    "form": ""
+  },
+  "fci-176": {
+    "color": "",
+    "form": ""
+  },
+  "fci-177": {
+    "color": "",
+    "form": ""
+  },
+  "fci-179": {
+    "color": "",
+    "form": ""
+  },
+  "fci-180": {
+    "color": "",
+    "form": ""
+  },
+  "fci-181": {
+    "color": "",
+    "form": ""
+  },
+  "fci-182": {
+    "color": "",
+    "form": ""
+  },
+  "fci-184": {
+    "color": "",
+    "form": ""
+  },
+  "fci-185": {
+    "color": "",
+    "form": ""
+  },
+  "fci-186": {
+    "color": "",
+    "form": ""
+  },
+  "fci-187": {
+    "color": "",
+    "form": ""
+  },
+  "fci-188": {
+    "color": "",
+    "form": ""
+  },
+  "fci-189": {
+    "color": "",
+    "form": ""
+  },
+  "fci-190": {
+    "color": "",
+    "form": ""
+  },
+  "fci-191": {
+    "color": "",
+    "form": ""
+  },
+  "fci-192": {
+    "color": "",
+    "form": ""
+  },
+  "fci-193": {
+    "color": "",
+    "form": ""
+  },
+  "fci-194": {
+    "color": "",
+    "form": ""
+  },
+  "fci-195": {
+    "color": "",
+    "form": ""
+  },
+  "fci-196": {
+    "color": "",
+    "form": ""
+  },
+  "fci-197": {
+    "color": "",
+    "form": ""
+  },
+  "fci-198": {
+    "color": "",
+    "form": ""
+  },
+  "fci-199": {
+    "color": "",
+    "form": ""
+  },
+  "fci-200": {
+    "color": "",
+    "form": ""
+  },
+  "fci-201": {
+    "color": "",
+    "form": ""
+  },
+  "fci-202": {
+    "color": "",
+    "form": ""
+  },
+  "fci-203": {
+    "color": "",
+    "form": ""
+  },
+  "fci-204": {
+    "color": "",
+    "form": ""
+  },
+  "fci-205": {
+    "color": "",
+    "form": ""
+  },
+  "fci-206": {
+    "color": "",
+    "form": ""
+  },
+  "fci-209": {
+    "color": "",
+    "form": ""
+  },
+  "fci-211": {
+    "color": "",
+    "form": ""
+  },
+  "fci-213": {
+    "color": "",
+    "form": ""
+  },
+  "fci-214": {
+    "color": "",
+    "form": ""
+  },
+  "fci-216": {
+    "color": "",
+    "form": ""
+  },
+  "fci-217": {
+    "color": "",
+    "form": ""
+  },
+  "fci-219": {
+    "color": "",
+    "form": ""
+  },
+  "fci-220": {
+    "color": "",
+    "form": ""
+  },
+  "fci-221": {
+    "color": "",
+    "form": ""
+  },
+  "fci-222": {
+    "color": "",
+    "form": ""
+  },
+  "fci-223": {
+    "color": "",
+    "form": ""
+  },
+  "fci-224": {
+    "color": "",
+    "form": ""
+  },
+  "fci-225": {
+    "color": "",
+    "form": ""
+  },
+  "fci-226": {
+    "color": "",
+    "form": ""
+  },
+  "fci-227": {
+    "color": "",
+    "form": ""
+  },
+  "fci-228": {
+    "color": "",
+    "form": ""
+  },
+  "fci-229": {
+    "color": "",
+    "form": ""
+  },
+  "fci-230": {
+    "color": "",
+    "form": ""
+  },
+  "fci-231": {
+    "color": "",
+    "form": ""
+  },
+  "fci-232": {
+    "color": "",
+    "form": ""
+  },
+  "fci-233": {
+    "color": "",
+    "form": ""
+  },
+  "fci-234": {
+    "color": "",
+    "form": ""
+  },
+  "fci-235": {
+    "color": "",
+    "form": ""
+  },
+  "fci-236": {
+    "color": "",
+    "form": ""
+  },
+  "fci-237": {
+    "color": "",
+    "form": ""
+  },
+  "fci-238": {
+    "color": "",
+    "form": ""
+  },
+  "fci-239": {
+    "color": "",
+    "form": ""
+  },
+  "fci-240": {
+    "color": "",
+    "form": ""
+  },
+  "fci-241": {
+    "color": "",
+    "form": ""
+  },
+  "fci-242": {
+    "color": "",
+    "form": ""
+  },
+  "fci-244": {
+    "color": "",
+    "form": ""
+  },
+  "fci-245": {
+    "color": "",
+    "form": ""
+  },
+  "fci-246": {
+    "color": "",
+    "form": ""
+  },
+  "fci-247": {
+    "color": "",
+    "form": ""
+  },
+  "fci-248": {
+    "color": "",
+    "form": ""
+  },
+  "fci-249": {
+    "color": "",
+    "form": ""
+  },
+  "fci-250": {
+    "color": "",
+    "form": ""
+  },
+  "fci-251": {
+    "color": "",
+    "form": ""
+  },
+  "fci-252": {
+    "color": "",
+    "form": ""
+  },
+  "fci-254": {
+    "color": "",
+    "form": ""
+  },
+  "fci-255": {
+    "color": "",
+    "form": ""
+  },
+  "fci-259": {
+    "color": "",
+    "form": ""
+  },
+  "fci-260": {
+    "color": "",
+    "form": ""
+  },
+  "fci-261": {
+    "color": "",
+    "form": ""
+  },
+  "fci-262": {
+    "color": "",
+    "form": ""
+  },
+  "fci-263": {
+    "color": "",
+    "form": ""
+  },
+  "fci-264": {
+    "color": "",
+    "form": ""
+  },
+  "fci-265": {
+    "color": "",
+    "form": ""
+  },
+  "fci-266": {
+    "color": "",
+    "form": ""
+  },
+  "fci-267": {
+    "color": "",
+    "form": ""
+  },
+  "fci-268": {
+    "color": "",
+    "form": ""
+  },
+  "fci-269": {
+    "color": "",
+    "form": "feathered"
+  },
+  "fci-271": {
+    "color": "",
+    "form": ""
+  },
+  "fci-272": {
+    "color": "",
+    "form": ""
+  },
+  "fci-273": {
+    "color": "",
+    "form": ""
+  },
+  "fci-274": {
+    "color": "",
+    "form": ""
+  },
+  "fci-275": {
+    "color": "",
+    "form": ""
+  },
+  "fci-276": {
+    "color": "",
+    "form": ""
+  },
+  "fci-277": {
+    "color": "",
+    "form": ""
+  },
+  "fci-278": {
+    "color": "",
+    "form": ""
+  },
+  "fci-279": {
+    "color": "",
+    "form": ""
+  },
+  "fci-281": {
+    "color": "",
+    "form": ""
+  },
+  "fci-282": {
+    "color": "",
+    "form": ""
+  },
+  "fci-283": {
+    "color": "",
+    "form": ""
+  },
+  "fci-284": {
+    "color": "",
+    "form": ""
+  },
+  "fci-285": {
+    "color": "",
+    "form": ""
+  },
+  "fci-286": {
+    "color": "",
+    "form": ""
+  },
+  "fci-287": {
+    "color": "",
+    "form": ""
+  },
+  "fci-288": {
+    "color": "",
+    "form": "hairless"
+  },
+  "fci-289": {
+    "color": "",
+    "form": ""
+  },
+  "fci-290": {
+    "color": "",
+    "form": ""
+  },
+  "fci-291": {
+    "color": "",
+    "form": ""
+  },
+  "fci-292": {
+    "color": "",
+    "form": ""
+  },
+  "fci-293": {
+    "color": "",
+    "form": ""
+  },
+  "fci-294": {
+    "color": "",
+    "form": ""
+  },
+  "fci-295": {
+    "color": "",
+    "form": ""
+  },
+  "fci-296": {
+    "color": "",
+    "form": ""
+  },
+  "fci-298": {
+    "color": "",
+    "form": ""
+  },
+  "fci-299": {
+    "color": "",
+    "form": ""
+  },
+  "fci-300": {
+    "color": "",
+    "form": ""
+  },
+  "fci-301": {
+    "color": "",
+    "form": ""
+  },
+  "fci-302": {
+    "color": "",
+    "form": ""
+  },
+  "fci-303": {
+    "color": "",
+    "form": ""
+  },
+  "fci-304": {
+    "color": "",
+    "form": ""
+  },
+  "fci-305": {
+    "color": "",
+    "form": ""
+  },
+  "fci-306": {
+    "color": "",
+    "form": ""
+  },
+  "fci-307": {
+    "color": "",
+    "form": ""
+  },
+  "fci-308": {
+    "color": "",
+    "form": ""
+  },
+  "fci-309": {
+    "color": "",
+    "form": ""
+  },
+  "fci-310": {
+    "color": "",
+    "form": ""
+  },
+  "fci-311": {
+    "color": "",
+    "form": ""
+  },
+  "fci-312": {
+    "color": "",
+    "form": ""
+  },
+  "fci-313": {
+    "color": "",
+    "form": ""
+  },
+  "fci-314": {
+    "color": "",
+    "form": ""
+  },
+  "fci-315": {
+    "color": "",
+    "form": ""
+  },
+  "fci-316": {
+    "color": "",
+    "form": ""
+  },
+  "fci-317": {
+    "color": "",
+    "form": ""
+  },
+  "fci-318": {
+    "color": "",
+    "form": ""
+  },
+  "fci-319": {
+    "color": "",
+    "form": ""
+  },
+  "fci-320": {
+    "color": "",
+    "form": ""
+  },
+  "fci-321": {
+    "color": "",
+    "form": ""
+  },
+  "fci-322": {
+    "color": "",
+    "form": ""
+  },
+  "fci-323": {
+    "color": "",
+    "form": ""
+  },
+  "fci-324": {
+    "color": "",
+    "form": ""
+  },
+  "fci-325": {
+    "color": "",
+    "form": ""
+  },
+  "fci-326": {
+    "color": "",
+    "form": ""
+  },
+  "fci-327": {
+    "color": "",
+    "form": ""
+  },
+  "fci-328": {
+    "color": "",
+    "form": ""
+  },
+  "fci-329": {
+    "color": "",
+    "form": ""
+  },
+  "fci-330": {
+    "color": "",
+    "form": ""
+  },
+  "fci-331": {
+    "color": "",
+    "form": ""
+  },
+  "fci-332": {
+    "color": "",
+    "form": ""
+  },
+  "fci-333": {
+    "color": "",
+    "form": ""
+  },
+  "fci-334": {
+    "color": "",
+    "form": ""
+  },
+  "fci-335": {
+    "color": "",
+    "form": ""
+  },
+  "fci-336": {
+    "color": "",
+    "form": ""
+  },
+  "fci-337": {
+    "color": "",
+    "form": ""
+  },
+  "fci-338": {
+    "color": "",
+    "form": ""
+  },
+  "fci-339": {
+    "color": "",
+    "form": ""
+  },
+  "fci-340": {
+    "color": "",
+    "form": ""
+  },
+  "fci-341": {
+    "color": "",
+    "form": ""
+  },
+  "fci-343": {
+    "color": "",
+    "form": ""
+  },
+  "fci-345": {
+    "color": "",
+    "form": ""
+  },
+  "fci-346": {
+    "color": "",
+    "form": ""
+  },
+  "fci-347": {
+    "color": "",
+    "form": ""
+  },
+  "fci-348": {
+    "color": "",
+    "form": ""
+  },
+  "fci-349": {
+    "color": "",
+    "form": ""
+  },
+  "fci-350": {
+    "color": "",
+    "form": ""
+  },
+  "fci-351": {
+    "color": "",
+    "form": ""
+  },
+  "fci-352": {
+    "color": "",
+    "form": ""
+  },
+  "fci-353": {
+    "color": "",
+    "form": ""
+  },
+  "fci-354": {
+    "color": "",
+    "form": ""
+  },
+  "fci-355": {
+    "color": "",
+    "form": ""
+  },
+  "fci-356": {
+    "color": "",
+    "form": ""
+  },
+  "fci-357": {
+    "color": "",
+    "form": ""
+  },
+  "fci-358": {
+    "color": "",
+    "form": ""
+  },
+  "fci-359": {
+    "color": "",
+    "form": ""
+  },
+  "fci-360": {
+    "color": "",
+    "form": ""
+  },
+  "fci-361": {
+    "color": "",
+    "form": ""
+  },
+  "fci-362": {
+    "color": "",
+    "form": ""
+  },
+  "fci-363": {
+    "color": "",
+    "form": ""
+  },
+  "fci-364": {
+    "color": "",
+    "form": ""
+  },
+  "fci-365": {
+    "color": "",
+    "form": ""
+  },
+  "fci-366": {
+    "color": "",
+    "form": ""
+  },
+  "fci-367": {
+    "color": "",
+    "form": ""
+  },
+  "fci-368": {
+    "color": "",
+    "form": ""
+  },
+  "fci-369": {
+    "color": "",
+    "form": ""
+  },
+  "fci-370": {
+    "color": "",
+    "form": ""
+  },
+  "fci-371": {
+    "color": "",
+    "form": ""
+  },
+  "fci-372": {
+    "color": "",
+    "form": ""
+  },
+  "fci-373": {
+    "color": "",
+    "form": ""
+  },
+  "fci-374": {
+    "color": "",
+    "form": ""
+  },
+  "fci-375": {
+    "color": "",
+    "form": ""
+  },
+  "fci-376": {
+    "color": "",
+    "form": ""
+  },
+  "fci-377": {
+    "color": "",
+    "form": ""
+  },
+  "fci-378": {
+    "color": "",
+    "form": ""
+  }
+}

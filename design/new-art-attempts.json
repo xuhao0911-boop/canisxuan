@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-06",
+  "mode": "built-in image_gen",
+  "referenceImage": "assets/illustration-styles/sculpted.png",
+  "attempts": [
+    {
+      "key": "labrador-retriever--black--short-double",
+      "breedId": "labrador-retriever",
+      "colorId": "black",
+      "formId": "short-double",
+      "type": "breed",
+      "appearance": "Labrador Retriever, solid jet BLACK coat, adult strong athletic yet not fat body, broad skull, kind medium brown eyes, hanging triangular ears, straight short dense double coat without long feathering, substantial straight otter tail carried level/lower, broad muzzle, brown eyes and black nose. Do not make a Golden Retriever, flat-coated retriever or long-haired dog.",
+      "status": "failed-connection",
+      "promptSpec": "Use case: scientific-educational. Asset type: CanisXuan dog encyclopedia illustration. Reference image: approved C soft dimensional illustration sheet; use only its fur rendering, gentle studio lighting and adult realistic proportions as a style reference. Create one original adult dog of the specified breed, full body standing naturally, three-quarter view facing right. Keep all four paws and the complete tail visible with comfortable margins. Pure white background with a very faint contact shadow. Soft dimensional fur, accurate breed anatomy, clear eyes, natural proportions. No collars, accessories, text, labels, watermark, extra animals or panels. Subject: Labrador Retriever, solid jet BLACK coat, adult strong athletic yet not fat body, broad skull, kind medium brown eyes, hanging triangular ears, straight short dense double coat without long feathering, substantial straight otter tail carried level/lower, broad muzzle, brown eyes and black nose. Do not make a Golden Retriever, flat-coated retriever or long-haired dog."
+    },
+    {
+      "key": "labrador-retriever--yellow--short-double",
+      "breedId": "labrador-retriever",
+      "colorId": "yellow",
+      "formId": "short-double",
+      "type": "variant",
+      "appearance": "Labrador Retriever, classic solid YELLOW/light golden-cream short coat, adult strong athletic yet not fat body, broad skull, brown eyes, black nose, hanging triangular ears, straight very short dense double coat without long feathering, substantial straight otter tail carried level/lower. No long Golden Retriever fur.",
+      "status": "failed-connection",
+      "promptSpec": "Use case: scientific-educational. Asset type: CanisXuan dog encyclopedia illustration. Reference image: approved C soft dimensional illustration sheet; use only its fur rendering, gentle studio lighting and adult realistic proportions as a style reference. Create one original adult dog of the specified breed, full body standing naturally, three-quarter view facing right. Keep all four paws and the complete tail visible with comfortable margins. Pure white background with a very faint contact shadow. Soft dimensional fur, accurate breed anatomy, clear eyes, natural proportions. No collars, accessories, text, labels, watermark, extra animals or panels. Subject: Labrador Retriever, classic solid YELLOW/light golden-cream short coat, adult strong athletic yet not fat body, broad skull, brown eyes, black nose, hanging triangular ears, straight very short dense double coat without long feathering, substantial straight otter tail carried level/lower. No long Golden Retriever fur."
+    },
+    {
+      "key": "labrador-retriever--chocolate--short-double",
+      "breedId": "labrador-retriever",
+      "colorId": "chocolate",
+      "formId": "short-double",
+      "type": "variant",
+      "appearance": "Labrador Retriever, solid deep CHOCOLATE BROWN short dense coat, adult robust athletic not fat body, broad skull and muzzle, brown nose and hazel-brown eyes, hanging triangular ears, short dense double coat without feathering, thick tapered otter tail. No white blaze, tan points or curly hair.",
+      "status": "failed-connection",
+      "promptSpec": "Use case: scientific-educational. Asset type: CanisXuan dog encyclopedia illustration. Reference image: approved C soft dimensional illustration sheet; use only its fur rendering, gentle studio lighting and adult realistic proportions as a style reference. Create one original adult dog of the specified breed, full body standing naturally, three-quarter view facing right. Keep all four paws and the complete tail visible with comfortable margins. Pure white background with a very faint contact shadow. Soft dimensional fur, accurate breed anatomy, clear eyes, natural proportions. No collars, accessories, text, labels, watermark, extra animals or panels. Subject: Labrador Retriever, solid deep CHOCOLATE BROWN short dense coat, adult robust athletic not fat body, broad skull and muzzle, brown nose and hazel-brown eyes, hanging triangular ears, short dense double coat without feathering, thick tapered otter tail. No white blaze, tan points or curly hair."
+    },
+    {
+      "key": "golden-retriever--dark-golden--default",
+      "breedId": "golden-retriever",
+      "colorId": "dark-golden",
+      "formId": "",
+      "type": "breed",
+      "appearance": "Golden Retriever, adult naturally proportioned medium-large athletic dog, rich dark GOLDEN coat, soft medium-length straight to gently wavy double coat, noticeable feathering on chest, abdomen, back of legs and long straight tail; friendly broad but not blocky head, brown eyes, black nose, hanging ears. Not a Labrador with short fur.",
+      "status": "failed-connection",
+      "promptSpec": "Use case: scientific-educational. Asset type: CanisXuan dog encyclopedia illustration. Reference image: approved C soft dimensional illustration sheet; use only its fur rendering, gentle studio lighting and adult realistic proportions as a style reference. Create one original adult dog of the specified breed, full body standing naturally, three-quarter view facing right. Keep all four paws and the complete tail visible with comfortable margins. Pure white background with a very faint contact shadow. Soft dimensional fur, accurate breed anatomy, clear eyes, natural proportions. No collars, accessories, text, labels, watermark, extra animals or panels. Subject: Golden Retriever, adult naturally proportioned medium-large athletic dog, rich dark GOLDEN coat, soft medium-length straight to gently wavy double coat, noticeable feathering on chest, abdomen, back of legs and long straight tail; friendly broad but not blocky head, brown eyes, black nose, hanging ears. Not a Labrador with short fur."
+    }
+  ],
+  "retry": {
+    "key": "labrador-retriever--black--short-double",
+    "status": "failed-connection"
+  },
+  "error": "image generation failed: connection failed: error sending request",
+  "newAssetsSaved": 0,
+  "cliFallbackUsed": false,
+  "promptNote": "Normalized production prompt specification for resuming these jobs; exact failed request payloads were not persisted."
+}

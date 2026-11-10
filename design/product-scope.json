@@ -1,0 +1,88 @@
+{
+  "project": "CanisXuan",
+  "version": "0.8.0",
+  "vision": "一站式宠物服务",
+  "currentPhase": "犬类图鉴、选犬助手、分享卡与内容纠错",
+  "registrationRequired": false,
+  "approvedArtStyle": "C 柔和立体原创插画",
+  "modules": [
+    {
+      "id": "encyclopedia",
+      "name": "犬种百科",
+      "status": "active",
+      "features": [
+        "犬种与地方类型目录",
+        "犬种介绍、外形与性情",
+        "毛色与形态",
+        "有来源的新手参考",
+        "饲养要点",
+        "组合检索与分类筛选",
+        "收藏与三犬对比",
+        "设备内外观识别",
+        "基于原有30份量表的选犬问卷",
+        "当前外观图鉴分享卡",
+        "资料纠错与反馈记录"
+      ]
+    },
+    {
+      "id": "health",
+      "name": "健康与照护",
+      "status": "planned",
+      "features": [
+        "饮食资料",
+        "疫苗提醒",
+        "体重记录"
+      ]
+    },
+    {
+      "id": "training",
+      "name": "行为与训练",
+      "status": "planned",
+      "features": [
+        "社会化资料",
+        "如厕训练",
+        "行为课程"
+      ]
+    },
+    {
+      "id": "community",
+      "name": "社区与社交",
+      "status": "planned",
+      "features": [
+        "交流",
+        "宠物动态",
+        "同城活动"
+      ]
+    },
+    {
+      "id": "services",
+      "name": "生活服务地图",
+      "status": "planned",
+      "features": [
+        "宠物友好场所",
+        "医院",
+        "住宿与美容"
+      ]
+    }
+  ],
+  "currentNavigation": [
+    "图鉴",
+    "识别",
+    "对比",
+    "收藏"
+  ],
+  "contentRules": [
+    "FCI 标准、其他体系犬种、地方类型分别记录来源及认可状态",
+    "同一犬种的毛色、被毛、体型变种不重复计为犬种",
+    "运动、训练、梳理、掉毛指标逐项引用，不推算综合新手适合度分数",
+    "插画只展示匹配的犬种、毛色与形态，未绘组合保留标记",
+    "未收录毛色的条目明确标注；代表外观不表示只有一种毛色"
+  ],
+  "currentColorCoverage": {
+    "withRecords": 32,
+    "withoutRecords": 346,
+    "multipleChoices": 30,
+    "singleRecord": 2
+  },
+  "colorCatalogComplete": false
+}

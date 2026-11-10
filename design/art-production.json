@@ -1,0 +1,21 @@
+{
+  "version": "0.6.0",
+  "style": "C",
+  "generation": {
+    "mode": "built-in image_gen",
+    "status": "complete",
+    "manifest": "design/generated-art-v6.json",
+    "newAssetsSaved": 294,
+    "redrawnExistingImages": 1,
+    "assetsSaved": 672,
+    "cliFallbackUsed": false
+  },
+  "queue": {
+    "totalJobs": 679,
+    "breedOrTypeJobs": 378,
+    "variantJobs": 301,
+    "completedJobs": 679,
+    "queuedJobs": 0
+  },
+  "displayPolicy": "Every selectable current colour/form combination has matching art after completion. Equivalent sample-sheet colour aliases may share the same approved appearance."
+}
